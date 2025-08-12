@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-ollama" %}
-{% set version = "0.44.2" %}
+{% set version = "0.45.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_ollama-{{ version }}.tar.gz
-  sha256: ee11d7dd9d08d55bd96ac32fc582f2ad2c2483f9a8a95d0ccbf0865ec3d93a0e
+  sha256: 08397ef7ac0f6c1ad89536b6892b4b6818fa32fcb9ca0a3661390a97f3888f77
 
 build:
   noarch: python
