@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: opentelemetry-instrumentation-ollama
-  version: "0.63.0"
+  version: "0.63.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/opentelemetry_instrumentation_ollama-${{ version }}.tar.gz
-  sha256: a5277b0cdd5392fb66f83b5e269bd8f7bc29dc8946892294685a6eb13e068d58
+  sha256: ee20bd1383eacebadd2bc7cbb41a70f5b30dbcdad98b3e92915313609715d640
 
 build:
   number: 0
